@@ -25,7 +25,7 @@ body {
     font-size: 280%;
  }
 
- /* menu styling */
+ /* menu & header styling */
 
  #menu {
     font-size: 110%;
@@ -33,8 +33,25 @@ body {
     float: right;
  }
 
+ #menu, #logo {
+    line-height: 75px;
+ }
+
  #menu li {
     float: left;
     list-style-type: none;
     margin-right: 30px;
+ }
+
+ #menu a {
+    text-decoration: none;
+    color: inherit;
+ }
+
+ #menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+ }
+
+ .active-page {
+    border-bottom: 1px dotted #3a3a3a;
  }
